@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 Test", "5 Test", "{721BA4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Portal.Common.Models", "OpenQbit.Portal.Common.Models\OpenQbit.Portal.Common.Models.csproj", "{11112564-82C9-4C2C-AD22-41CD0F5D07E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Portal.Test.Web", "OpenQbit.Portal.Test.Web\OpenQbit.Portal.Test.Web.csproj", "{ECE7376D-2626-4FDD-9A7A-C053CDDC1D55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Portal.Presentation.Web", "OpenQbit.Portal.Presentation.Web\OpenQbit.Portal.Presentation.Web.csproj", "{86E9DEA7-6685-44DD-AC4A-5117E6FB99B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,11 +31,21 @@ Global
 		{11112564-82C9-4C2C-AD22-41CD0F5D07E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11112564-82C9-4C2C-AD22-41CD0F5D07E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11112564-82C9-4C2C-AD22-41CD0F5D07E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECE7376D-2626-4FDD-9A7A-C053CDDC1D55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECE7376D-2626-4FDD-9A7A-C053CDDC1D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECE7376D-2626-4FDD-9A7A-C053CDDC1D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECE7376D-2626-4FDD-9A7A-C053CDDC1D55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86E9DEA7-6685-44DD-AC4A-5117E6FB99B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86E9DEA7-6685-44DD-AC4A-5117E6FB99B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86E9DEA7-6685-44DD-AC4A-5117E6FB99B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86E9DEA7-6685-44DD-AC4A-5117E6FB99B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{11112564-82C9-4C2C-AD22-41CD0F5D07E4} = {D001D1F0-9EA4-4082-A281-C725B07F6E79}
+		{ECE7376D-2626-4FDD-9A7A-C053CDDC1D55} = {721BA485-5BA2-46E5-A025-E5DB25957F5C}
+		{86E9DEA7-6685-44DD-AC4A-5117E6FB99B6} = {EDCD7C62-F39F-48C4-B400-1CCA3277442A}
 	EndGlobalSection
 EndGlobal
